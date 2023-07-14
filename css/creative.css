@@ -212,8 +212,11 @@ header .header-content .header-content-inner p {
   margin-top: 0;
 }
 .about-img {
+  max-width: 250px;
   margin: 50px auto 0;
   flex-basis: 40%;
+  display: flex;
+  justify-content: center;
 }
 .about-txt {
   color: rgba(255, 255, 255, 0.7);
