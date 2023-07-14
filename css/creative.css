@@ -211,6 +211,13 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
+
+.about-img {
+  max-width: 200px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+}
 .skills-box {
   max-width: 200px;
   margin: 20px auto 0;
