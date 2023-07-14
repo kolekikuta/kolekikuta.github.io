@@ -221,15 +221,12 @@ header .header-content .header-content-inner p {
   transition: .5s;
   transform: scale(1);
   object-fit: cover;
+  text-align: center;
 }
 
 .skills-img:hover {
   transition: .5s;
   transform: scale(1.25);
-}
-
-.cover {
-  object-fit: cover;
 }
 
 @media (min-width: 992px) {
