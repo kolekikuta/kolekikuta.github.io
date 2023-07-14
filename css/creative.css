@@ -211,10 +211,13 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
-
 .about-img {
   margin: 50px auto 0;
-  display: inline;
+  flex-basis: 40%;
+}
+.about-txt {
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 20px;
 }
 .skills-box {
   max-width: 200px;
