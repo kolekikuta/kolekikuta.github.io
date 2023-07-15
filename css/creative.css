@@ -221,7 +221,6 @@ header .header-content .header-content-inner p {
 .about-img img {
   height: 100%;
   width: 100%;
-  flex-basis: 40%;
   object-fit: contain;
 }
 .about-txt {
