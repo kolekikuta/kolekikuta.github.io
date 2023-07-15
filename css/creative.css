@@ -218,7 +218,7 @@ header .header-content .header-content-inner p {
   flex-basis: 40%;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .about-txt {
   color: rgba(255, 255, 255, 0.7);
