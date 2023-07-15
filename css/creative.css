@@ -214,6 +214,7 @@ header .header-content .header-content-inner p {
 .about-img {
   max-width: 250px;
   max-height: 400px;
+  margin: 0 auto 0;
   flex-basis: 40%;
   display: flex;
   justify-content: center;
