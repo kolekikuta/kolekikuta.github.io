@@ -1594,6 +1594,9 @@ pre code {
   align-items: center;
   justify-content: center;
 }
+.to-skills-button {
+  margin-top: 15px;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
