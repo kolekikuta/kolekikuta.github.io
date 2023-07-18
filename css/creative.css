@@ -215,8 +215,7 @@ header .header-content .header-content-inner p {
   height: 500px;
   max-width: 400px;
   flex-basis: 40%;
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .about-txt {
