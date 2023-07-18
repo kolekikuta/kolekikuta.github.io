@@ -214,12 +214,14 @@ header .header-content .header-content-inner p {
 .about-img {
   height: 500px;
   max-width: 400px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .about-txt {
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
+  margin-bottom: 15px;
 }
 .skills-box {
   max-width: 200px;
