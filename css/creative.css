@@ -255,6 +255,7 @@ header .header-content .header-content-inner p {
   max-height: 350px;
   overflow: hidden;
   margin: 0 auto;
+  aspect-ratio: 16 / 9;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
