@@ -211,14 +211,14 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
-.about-img {
+.experience-img {
   height: 500px;
   max-width: 400px;
   margin-bottom: 20px;
   display: block;
 }
 
-.about-txt {
+.experience-txt {
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
 }
