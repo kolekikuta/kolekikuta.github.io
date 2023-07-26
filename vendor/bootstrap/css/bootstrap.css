@@ -1087,8 +1087,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: white;
 }
 input,
 button,
@@ -1270,6 +1269,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  font-weight: 700;
 }
 h3,
 .h3 {
@@ -1288,7 +1288,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1423,6 +1423,7 @@ ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
+  direction: ltr;
 }
 .list-unstyled {
   padding-left: 0;
@@ -1592,6 +1593,8 @@ pre code {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-clip-margin: border-box;
+  overflow: hidden;
 }
 .to-skills-button {
   margin-top: 15px;
@@ -4502,8 +4505,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: rgba(255, 255, 255, .3);
+  border-color:  rgba(255, 255, 255, .3);
 }
 .navbar-default .navbar-brand {
   color: #777;
